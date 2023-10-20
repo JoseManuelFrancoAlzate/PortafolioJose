@@ -1,0 +1,32 @@
+.let{
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 16px;
+    color: #ff0404;
+    line-height: 1.4;
+    font-size: 30px; /* Tamaño de fuente más grande */
+    letter-spacing: 1px;
+    max-width: 900px;
+position:relative;
+top: 0px; left: 20px;
+}
+
+.divDes{
+    display: flex;
+    }
+
+.divCard{
+    position: relative;
+    top: 0px; left: 50px;     }
+
+.divHome{
+    position: relative;
+    top: 100px; left: 30px; 
+    display: flex;
+}
+
+
+@media(max-width:700px){
+    .let{
+        min-width:500px
+    }
+    }

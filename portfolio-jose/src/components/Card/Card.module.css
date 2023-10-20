@@ -1,0 +1,116 @@
+.imgCss{
+    height: 200px;
+      width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Aplica el borde redondeado */
+  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor manteniendo la proporción */
+  background-color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #d62a2a;
+  border: 1px solid rgb(0,0,75,1);
+
+
+}
+
+
+.imgCss:hover{
+    border-color: #ff9900; /* Cambia el color del borde al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen */
+
+}
+
+.imgCssIc{
+      width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Aplica el borde redondeado */
+  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor manteniendo la proporción */
+  background-color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  align-items: center;
+  flex: 1;
+  padding: 2px;
+  border: 1px solid #d62a2a;
+  border: 1px solid rgb(0,0,75,1);
+
+
+}
+
+.imgCssIc:hover{
+  border-color: #0026ff; /* Cambia el color del borde al pasar el mouse */
+  transform: scale(1.09); /* Aumenta ligeramente el tamaño de la imagen */
+
+}
+
+
+.card{
+    letter-spacing: 1px;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    border:1px solid rgb(0,0,75,1);
+    width: 250px;
+    border-radius:10px;
+      flex-wrap:wrap;
+      background-color: rgba(255, 255, 0, 0.52); /* Color de fondo con transparencia */
+      padding: 20px;
+      border-radius: 8px;
+      position: relative;
+      top: 0px; left: 35px; 
+}
+
+
+
+.letraCards{
+    font-size: 36px;
+    font-family: 'Slabo 27px', serif;  font-size: 16px;
+  color: #ffffff; /* Color naranja */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  background:#000000;
+  border-radius: 10px ;
+  }
+
+.button{
+  background-color: #000000;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff;;
+   text-transform: uppercase;
+    font: normal 400 16px/16px Open sans;
+    min-height: 1px;
+    min-width: 1px;
+    padding: 10px 25px;
+    transition: background-color 0.25s ease-out;
+
+}
+
+.button:hover{
+    border-color: #ff9900; /* Cambia el color del borde al pasar el mouse */
+    transform: scale(1.0); /* Aumenta ligeramente el tamaño de la imagen */
+
+
+}
+
+
+@media (max-width:1000px){
+  .card{
+    position: relative;
+    top: 0px; left: -30px;      
+ }
+ 
+ }
+
+
+
+@media (max-width:700px){
+  .card{
+    position: relative;
+      top: 500px; left: -450px;       
+ }
+ 
+ }
+

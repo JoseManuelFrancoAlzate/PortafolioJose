@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .titulo{
+    font-family: 'Potta One', cursive;
+    color: yellow
+  }
+  .proyecto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 1px;
+    cursor: pointer;
+  }
+  
+  .proyecto:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .proyecto h2 {
+    margin: 0;
+  }
+  
+  .proyecto-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .tecnologias {
+    font-style: italic;
+  }
+
+
+
+  .let{
+    position: relative;
+    top: 0px; left: 0px; 
+    font-family: 'Slabo 27px', serif;
+    color: red;
+  }
+
+
+  .component {
+    color: var(--bs-gray-800);
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .25rem;
+  }
+.losH3{
+  color:white
+}
+.losN{
+  color:white
+}
+
+
+.divF{
+  height: 1800px;
+  position: relative;
+  top: 600px; left: 0px; 
+}
+
+
+@media(max-width:1000px){
+    .divF{
+      position: relative;
+      top: 800px; left: 0
+    }
+}

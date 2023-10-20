@@ -1,0 +1,144 @@
+
+.imgDogs{
+   
+    width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+    height: auto; /* Mantener la proporción de aspecto de la imagen */
+
+}
+
+.imgCountries{
+   
+    width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+    height: auto; /* Mantener la proporción de aspecto de la imagen */
+
+}
+
+.imgNifitygo{
+    width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+    height: auto; /* Mantener la proporción de aspecto de la imagen */
+
+}
+
+.letDogs{
+    position: relative;
+    top: 0px; left: -400px; 
+    font-family: 'Slabo 27px', serif;
+    color: red;
+
+}
+
+.letCountries{
+    position: relative;
+    top: -310px; left: 350px;  
+    font-family: 'Slabo 27px', serif;
+    color: red;
+
+}
+
+.letNifitygo{
+    position: relative;
+    top: -300px; left: 0px; 
+    width: 500px;
+    height: 500;  
+    font-family: 'Slabo 27px', serif;
+    color: red;
+
+}
+
+.titulo{
+    font-family: 'Potta One', cursive;
+    color: yellow
+}
+
+.cardCountries{
+    width: 300px; /* Ancho de la tarjeta */
+    background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados para la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
+    overflow: hidden; /* Ocultar el contenido que se desborda */
+    position: relative;
+    top: -312px; left: 850px; 
+    width: 500px;
+    height: 500;
+    margin-right: 400px;
+}
+
+.cardDogs{
+  
+        width: 300px; /* Ancho de la tarjeta */
+        background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+        border: 1px solid #ccc; /* Borde de la tarjeta */
+        border-radius: 10px; /* Bordes redondeados para la tarjeta */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
+        overflow: hidden; /* Ocultar el contenido que se desborda */
+        position: relative;
+        top: 0px; left: 100px; 
+        width: 500px;
+        height: 500;
+        margin-right: 400px;
+    
+}
+
+.cardNifitygo{
+
+    width: 300px; /* Ancho de la tarjeta */
+    background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados para la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
+    overflow: hidden; /* Ocultar el contenido que se desborda */
+    position: relative;
+    top: -300px; left: 200px; 
+    width: 500px;
+    height: 500;
+    margin-right: 400px;
+}
+
+.cardNifitygo:hover{
+    width: 300px; /* Ancho de la tarjeta */
+    background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados para la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
+    overflow: hidden; /* Ocultar el contenido que se desborda */
+    position: relative;
+    top: -300px; left: 200px; 
+    width: 600px;
+    height: 600;
+    margin-right: 400px;
+    
+}
+
+/* Estilo inicial de la imagen */
+.image-container {
+    width: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Estilo de la imagen cuando se hace clic */
+  .clicked {
+    transform: scale(1.1); /* Cambia el tamaño de la imagen al hacer clic */
+    z-index: 1; /* Asegura que esta imagen esté en la parte superior */
+    
+    
+  }
+  
+  /* Estilos específicos para la imagen dentro de .image-container */
+  .letC{
+    color:chartreuse;
+    font-family: 'Potta One', cursive;
+
+  }
+
+
+
+/*
+position: relative;
+    top: 500px; left: 500px; 
+*/

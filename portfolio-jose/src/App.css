@@ -1,0 +1,13 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/151/483/desktop-wallpaper-backgrounds-portfolio-portfolio.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000hv; /* Ajusta el 100% de la altura de la ventana del navegador */
+  overflow: hidden; /* Evita el desplazamiento vertical */
+  
+}
+
