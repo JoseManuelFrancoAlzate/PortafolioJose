@@ -114,3 +114,9 @@
  
  }
 
+ @media(max-width:500px){
+  .card{
+      position: relative;
+      top: 600px; left: -430px;       
+  }
+  }

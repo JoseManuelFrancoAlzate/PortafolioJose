@@ -64,13 +64,13 @@ body {
 
 
 .divF{
-  height: 1800px;
+  height: 350dvh;
   position: relative;
   top: 600px; left: 0px; 
 }
 
 
-@media(max-width:1000px){
+@media(max-width:600px){
     .divF{
       position: relative;
       top: 800px; left: 0
